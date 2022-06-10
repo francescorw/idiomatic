@@ -22,3 +22,4 @@ enablePlugins(DockerPlugin)
 
 mainClass in Compile := Some("ai.frw.idiomatic.Main")
 packageName in Docker := "francescorw/idiomatic"
+dockerBaseImage := "openjdk:11"
